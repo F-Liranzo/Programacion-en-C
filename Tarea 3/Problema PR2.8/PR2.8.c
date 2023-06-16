@@ -7,8 +7,9 @@ El programa, al recibir como datos decisivos la categoría y antigüedad de
 CLA, CAT, ANT, RES: variables de tipo entero.
 SAL: variable de tipo real. */
 
-void main(void)
+void main
 {
+
     int CLA, CAT, ANT, RES;
     printf("\n ingrese la clave , categoria y antiguedad del trabajador :");
     scanf("%d %d %d", &CLA, &CAT, &ANT);
@@ -43,5 +44,7 @@ void main(void)
 
 
 
+
+}
 
 }

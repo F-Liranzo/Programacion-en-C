@@ -6,7 +6,7 @@ los números perfectos que hay entre 1 y ese número, y además imprime cuántos núm
 perfectos hay en el intervalo.
 I, J, NUM, SUM, C: variables de tipo entero. */
 
-void main(void)
+void main
 {
 int I, J, NUM, SUM, C = 0;
 printf("\nIngrese el número límite: ");
