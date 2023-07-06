@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 #define MAX_CLIENTES 50
 
 float gas = 23.04;  /* este es el precio de la gasolina por km , para encontrar
@@ -24,6 +26,7 @@ struct gasolina // estructura de datos //
 int main ()
 {
     int n;
+    system ("cls");
     printf (" Cuantos clientes desea calcular \n\n");
     scanf("%d",&n);
 
@@ -40,23 +43,16 @@ int main ()
 
       }
       printf("\n\n\n");
+      system ("cls");
 
        for (int i = 0; i < n; i++)
        {
            float gasto = gasola[i].distancia * gas; //variable para calcular el gasto de combustible //
            float total = gasto + varios; // este suma los datos para encontrar el total //
 
-           // tenemos dos formas de imprimir los datos como una lista y tambien tenemos como una tabla //
+           
 
-           /*printf ("............................\n");
-           printf("cliente # %d:\n", i + 1);
-           printf("Nombre: %s\n", gasola[i].cliente);
-           printf("distancia :  %.2fkm \n", gasola[i].distancia);
-           printf("Precio combustible : %.2f\n",gasto);
-           printf("Gastos varios  : %.2f\n",varios);
-           printf("total : %.2f\n",total);
-           printf("\n");*/
-
+           system ("cls");
            printf("\nTabla de calificaciones:\n"); // para crear la tabla utilice %-15 para especificar el ancho de cada una de las barrar , limitando los caracteres//
     printf("-------------------------------------------------------------------------\n");
     printf("| %-15s | %-10s | %-11s | %-11s | %-11s |\n", "cliente", "distancia", "Gasto gas" ,"Varios","total");
