@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include<math.h>
 #define MAX_CLIENTES 50
+#define GASTOS "salida.txt"
 
 
 struct gasolina // estructura de datos //
@@ -77,6 +78,19 @@ int main()
     }
     printf("\n\n\n");
     
+
+
+     FILE *archivo;
+
+    // Abre el archivo en modo de escritura
+    archivo = fopen(GASTOS , "w");
+    if (archivo == NULL) 
+    {
+        printf("No se pudo abrir el archivo.\n");
+        return 1;
+    }
+
+
     
 
     for (int i = 0; i < n; i++)
@@ -90,6 +104,11 @@ int main()
             printf("----------------------------| %-15s |----------------------------\n", gasola[i].cliente);
             printf("---------------------------------------------------------------------------\n");
             printf("| %-11s | %-11s | %-11s | %-11s | %-11s  |\n", "distancia","presicion","Gasto gas", "gastos varios", "total");
+
+            fprintf(archivo,"Usuario #%d \n", i);
+            fprintf(archivo,"----------------------------| %-15s |----------------------------\n", gasola[i].cliente);
+            fprintf(archivo,"---------------------------------------------------------------------------\n");
+            fprintf(archivo,"| %-11s | %-11s | %-11s | %-11s | %-11s  |\n", "distancia","presicion","Gasto gas", "gastos varios", "total");
 
 
 
@@ -113,8 +132,15 @@ int main()
              printf("| %-11.2f |  %-10.2f |  %-10.2f |  %-10.2f   |  %-10.2f  |\n", gasola[i].distancia , c, precio_total_gas ,gastosv,total );
             printf("---------------------------------------------------------------------------\n");
             
+            fprintf(archivo,"| %-11.2f |  %-10.2f |  %-10.2f |  %-10.2f   |  %-10.2f  |\n", gasola[i].distancia , c, precio_total_gas ,gastosv,total );
+            fprintf(archivo,"---------------------------------------------------------------------------\n");
             }
         } 
+
+       
     }
-}
+fclose(archivo);
+return 0; 
+    
+    }
 
