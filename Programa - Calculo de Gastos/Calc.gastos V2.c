@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include<math.h>
 #define MAX_CLIENTES 50
-#define GASTOS "salida.txt"
+#define GASTOS "Gastos.txt"
 
 
 struct gasolina // estructura de datos //
@@ -78,11 +78,11 @@ int main()
     }
     printf("\n\n\n");
     
-
+    
+    
+    // Abre el archivo en modo de escritura
 
      FILE *archivo;
-
-    // Abre el archivo en modo de escritura
     archivo = fopen(GASTOS , "w");
     if (archivo == NULL) 
     {
@@ -92,7 +92,6 @@ int main()
 
 
     
-
     for (int i = 0; i < n; i++)
     {
         
