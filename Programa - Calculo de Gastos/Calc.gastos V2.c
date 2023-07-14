@@ -34,13 +34,13 @@ int main()
 
     // Cantidad de clientes a calcular //
     int n;
-    printf(" Cuantos clientes desea calcular ? \n");
+    printf(" Ingresa la cantidad de clientes que deseas calcular : \n");
     scanf("%d", &n);
    
 
    // presicion //
    float p; 
-   printf("Ingresa la presicion del calculo");
+   printf("Ingresa la presicion del calculo: \n");
     scanf("%f", &p);
     system("cls"); 
 

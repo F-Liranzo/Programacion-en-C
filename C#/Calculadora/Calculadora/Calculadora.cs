@@ -1,28 +1,40 @@
 namespace Calculadora
 {
-    public partial class Dashboard : Form
+    public partial class Calculadora : Form
     {
-        public Dashboard()
+        public Calculadora()
         {
             InitializeComponent();
         }
 
-        private void btn1 (object sender, EventArgs e)
+        private void BTPUNTO_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button22_Click(object sender, EventArgs e)
+        private void BT0_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button20_Click(object sender, EventArgs e)
+        private void BTSIGNO_Click(object sender, EventArgs e)
         {
+
         }
 
-        private void button21_Click(object sender, EventArgs e)
+        private void BT3_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void BT2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BT1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
