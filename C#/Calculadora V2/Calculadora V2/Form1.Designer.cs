@@ -59,7 +59,7 @@
             this.txtResultado.Location = new System.Drawing.Point(27, 12);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(475, 76);
+            this.txtResultado.Size = new System.Drawing.Size(409, 76);
             this.txtResultado.TabIndex = 0;
             this.txtResultado.Text = "0";
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -77,7 +77,7 @@
             // btnSiete
             // 
             this.btnSiete.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSiete.Location = new System.Drawing.Point(27, 199);
+            this.btnSiete.Location = new System.Drawing.Point(27, 190);
             this.btnSiete.Name = "btnSiete";
             this.btnSiete.Size = new System.Drawing.Size(75, 75);
             this.btnSiete.TabIndex = 1;
@@ -88,7 +88,7 @@
             // btnCuatro
             // 
             this.btnCuatro.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCuatro.Location = new System.Drawing.Point(27, 291);
+            this.btnCuatro.Location = new System.Drawing.Point(27, 271);
             this.btnCuatro.Name = "btnCuatro";
             this.btnCuatro.Size = new System.Drawing.Size(75, 75);
             this.btnCuatro.TabIndex = 1;
@@ -99,7 +99,7 @@
             // btnUno
             // 
             this.btnUno.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUno.Location = new System.Drawing.Point(27, 385);
+            this.btnUno.Location = new System.Drawing.Point(27, 352);
             this.btnUno.Name = "btnUno";
             this.btnUno.Size = new System.Drawing.Size(75, 75);
             this.btnUno.TabIndex = 1;
@@ -110,7 +110,7 @@
             // btnBorrarTodo
             // 
             this.btnBorrarTodo.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorrarTodo.Location = new System.Drawing.Point(120, 109);
+            this.btnBorrarTodo.Location = new System.Drawing.Point(108, 109);
             this.btnBorrarTodo.Name = "btnBorrarTodo";
             this.btnBorrarTodo.Size = new System.Drawing.Size(75, 75);
             this.btnBorrarTodo.TabIndex = 1;
@@ -121,7 +121,7 @@
             // btnOcho
             // 
             this.btnOcho.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOcho.Location = new System.Drawing.Point(120, 199);
+            this.btnOcho.Location = new System.Drawing.Point(108, 190);
             this.btnOcho.Name = "btnOcho";
             this.btnOcho.Size = new System.Drawing.Size(75, 75);
             this.btnOcho.TabIndex = 1;
@@ -132,7 +132,7 @@
             // btnCinco
             // 
             this.btnCinco.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCinco.Location = new System.Drawing.Point(120, 291);
+            this.btnCinco.Location = new System.Drawing.Point(108, 271);
             this.btnCinco.Name = "btnCinco";
             this.btnCinco.Size = new System.Drawing.Size(75, 75);
             this.btnCinco.TabIndex = 1;
@@ -143,7 +143,7 @@
             // btnDos
             // 
             this.btnDos.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDos.Location = new System.Drawing.Point(120, 385);
+            this.btnDos.Location = new System.Drawing.Point(108, 352);
             this.btnDos.Name = "btnDos";
             this.btnDos.Size = new System.Drawing.Size(75, 75);
             this.btnDos.TabIndex = 1;
@@ -154,7 +154,7 @@
             // btnAtras
             // 
             this.btnAtras.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAtras.Location = new System.Drawing.Point(215, 109);
+            this.btnAtras.Location = new System.Drawing.Point(189, 109);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 75);
             this.btnAtras.TabIndex = 1;
@@ -165,7 +165,7 @@
             // btnNueve
             // 
             this.btnNueve.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNueve.Location = new System.Drawing.Point(215, 199);
+            this.btnNueve.Location = new System.Drawing.Point(189, 190);
             this.btnNueve.Name = "btnNueve";
             this.btnNueve.Size = new System.Drawing.Size(75, 75);
             this.btnNueve.TabIndex = 1;
@@ -176,7 +176,7 @@
             // btnSeis
             // 
             this.btnSeis.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeis.Location = new System.Drawing.Point(215, 291);
+            this.btnSeis.Location = new System.Drawing.Point(189, 271);
             this.btnSeis.Name = "btnSeis";
             this.btnSeis.Size = new System.Drawing.Size(75, 75);
             this.btnSeis.TabIndex = 1;
@@ -187,7 +187,7 @@
             // btnTres
             // 
             this.btnTres.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTres.Location = new System.Drawing.Point(215, 385);
+            this.btnTres.Location = new System.Drawing.Point(189, 352);
             this.btnTres.Name = "btnTres";
             this.btnTres.Size = new System.Drawing.Size(75, 75);
             this.btnTres.TabIndex = 1;
@@ -198,7 +198,7 @@
             // btnRaizCuadrada
             // 
             this.btnRaizCuadrada.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRaizCuadrada.Location = new System.Drawing.Point(337, 109);
+            this.btnRaizCuadrada.Location = new System.Drawing.Point(280, 190);
             this.btnRaizCuadrada.Name = "btnRaizCuadrada";
             this.btnRaizCuadrada.Size = new System.Drawing.Size(75, 75);
             this.btnRaizCuadrada.TabIndex = 1;
@@ -210,7 +210,7 @@
             // btnDividir
             // 
             this.btnDividir.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDividir.Location = new System.Drawing.Point(337, 199);
+            this.btnDividir.Location = new System.Drawing.Point(280, 271);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(75, 75);
             this.btnDividir.TabIndex = 1;
@@ -222,7 +222,7 @@
             // btnSuma
             // 
             this.btnSuma.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuma.Location = new System.Drawing.Point(337, 291);
+            this.btnSuma.Location = new System.Drawing.Point(280, 352);
             this.btnSuma.Name = "btnSuma";
             this.btnSuma.Size = new System.Drawing.Size(75, 75);
             this.btnSuma.TabIndex = 1;
@@ -234,7 +234,7 @@
             // btnElevarCuadrado
             // 
             this.btnElevarCuadrado.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnElevarCuadrado.Location = new System.Drawing.Point(427, 109);
+            this.btnElevarCuadrado.Location = new System.Drawing.Point(361, 190);
             this.btnElevarCuadrado.Name = "btnElevarCuadrado";
             this.btnElevarCuadrado.Size = new System.Drawing.Size(75, 75);
             this.btnElevarCuadrado.TabIndex = 1;
@@ -246,7 +246,7 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiplicar.Location = new System.Drawing.Point(427, 199);
+            this.btnMultiplicar.Location = new System.Drawing.Point(361, 271);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(75, 75);
             this.btnMultiplicar.TabIndex = 1;
@@ -258,7 +258,7 @@
             // btnResta
             // 
             this.btnResta.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResta.Location = new System.Drawing.Point(427, 291);
+            this.btnResta.Location = new System.Drawing.Point(361, 352);
             this.btnResta.Name = "btnResta";
             this.btnResta.Size = new System.Drawing.Size(75, 75);
             this.btnResta.TabIndex = 1;
@@ -270,9 +270,9 @@
             // btnResultado
             // 
             this.btnResultado.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResultado.Location = new System.Drawing.Point(337, 385);
+            this.btnResultado.Location = new System.Drawing.Point(280, 433);
             this.btnResultado.Name = "btnResultado";
-            this.btnResultado.Size = new System.Drawing.Size(165, 75);
+            this.btnResultado.Size = new System.Drawing.Size(156, 75);
             this.btnResultado.TabIndex = 1;
             this.btnResultado.Text = "=";
             this.btnResultado.UseVisualStyleBackColor = true;
@@ -281,7 +281,7 @@
             // btnSigno
             // 
             this.btnSigno.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSigno.Location = new System.Drawing.Point(27, 480);
+            this.btnSigno.Location = new System.Drawing.Point(27, 433);
             this.btnSigno.Name = "btnSigno";
             this.btnSigno.Size = new System.Drawing.Size(75, 75);
             this.btnSigno.TabIndex = 1;
@@ -292,7 +292,7 @@
             // btnCero
             // 
             this.btnCero.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCero.Location = new System.Drawing.Point(120, 480);
+            this.btnCero.Location = new System.Drawing.Point(108, 433);
             this.btnCero.Name = "btnCero";
             this.btnCero.Size = new System.Drawing.Size(75, 75);
             this.btnCero.TabIndex = 1;
@@ -303,7 +303,7 @@
             // btnPunto
             // 
             this.btnPunto.Font = new System.Drawing.Font("Bebas Neue", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPunto.Location = new System.Drawing.Point(215, 480);
+            this.btnPunto.Location = new System.Drawing.Point(189, 433);
             this.btnPunto.Name = "btnPunto";
             this.btnPunto.Size = new System.Drawing.Size(75, 75);
             this.btnPunto.TabIndex = 1;
@@ -315,7 +315,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 588);
+            this.BackColor = System.Drawing.Color.DarkGray;
+            this.ClientSize = new System.Drawing.Size(465, 527);
             this.Controls.Add(this.btnPunto);
             this.Controls.Add(this.btnTres);
             this.Controls.Add(this.btnCero);
