@@ -71,7 +71,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1209, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(1218, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(53, 23);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -149,15 +149,16 @@
             this.panelformulario.BackColor = System.Drawing.Color.White;
             this.panelformulario.Controls.Add(this.pictureBox5);
             this.panelformulario.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelformulario.Location = new System.Drawing.Point(0, 153);
+            this.panelformulario.Location = new System.Drawing.Point(0, 148);
             this.panelformulario.Name = "panelformulario";
-            this.panelformulario.Size = new System.Drawing.Size(1274, 512);
+            this.panelformulario.Size = new System.Drawing.Size(1274, 517);
             this.panelformulario.TabIndex = 1;
+            this.panelformulario.Paint += new System.Windows.Forms.PaintEventHandler(this.panelformulario_Paint);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(232, 56);
+            this.pictureBox5.Location = new System.Drawing.Point(232, 54);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(788, 361);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

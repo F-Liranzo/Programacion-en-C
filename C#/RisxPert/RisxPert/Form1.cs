@@ -74,6 +74,10 @@ namespace RisxPert
 
         }
 
+        private void panelformulario_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }

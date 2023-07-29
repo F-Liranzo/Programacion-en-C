@@ -13,3 +13,6 @@ C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert\
 C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert\RisxPert\obj\Debug\RisxPert.Fase2.resources
 C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert\RisxPert\obj\Debug\RisxPert.Fase3.resources
 C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert\RisxPert\obj\Debug\RisxPert.Fase4.resources
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert\RisxPert\bin\Debug\LiteDB.dll
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert\RisxPert\bin\Debug\LiteDB.xml
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert\RisxPert\obj\Debug\RisxPert.csproj.CopyComplete

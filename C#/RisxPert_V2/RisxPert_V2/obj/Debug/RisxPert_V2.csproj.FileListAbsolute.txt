@@ -1,0 +1,11 @@
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\bin\Debug\RisxPert_V2.exe.config
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\bin\Debug\RisxPert_V2.exe
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\bin\Debug\RisxPert_V2.pdb
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.csproj.AssemblyReference.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.Form1.resources
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.Properties.Resources.resources
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.csproj.GenerateResource.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.csproj.CoreCompileInputs.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.exe
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\RisxPert_V2\RisxPert_V2\obj\Debug\RisxPert_V2.pdb
