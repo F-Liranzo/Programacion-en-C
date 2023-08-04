@@ -1,0 +1,15 @@
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\bin\Debug\net6.0\Practica list genericas I.exe
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\bin\Debug\net6.0\Practica list genericas I.deps.json
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\bin\Debug\net6.0\Practica list genericas I.runtimeconfig.json
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\bin\Debug\net6.0\Practica list genericas I.dll
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\bin\Debug\net6.0\Practica list genericas I.pdb
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.csproj.AssemblyReference.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.AssemblyInfoInputs.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.AssemblyInfo.cs
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.csproj.CoreCompileInputs.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.dll
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\refint\Practica list genericas I.dll
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.pdb
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\Practica list genericas I.genruntimeconfig.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Practica list genericas I\Practica list genericas I\obj\Debug\net6.0\ref\Practica list genericas I.dll
