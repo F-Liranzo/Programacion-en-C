@@ -12,7 +12,7 @@ namespace litedbprueba
         static void Main(string[] args)
         {
             // Open database (or create if doesn't exist)
-            using (var db = new LiteDatabase(@"C:\Temp\MyData.db"))
+            using (var db = new LiteDatabase(@"C:\Users\Fraia\Desktop\basdatos"))
             {
                 // Get a collection (or create, if doesn't exist)
                 var col = db.GetCollection<Customer>("customers");

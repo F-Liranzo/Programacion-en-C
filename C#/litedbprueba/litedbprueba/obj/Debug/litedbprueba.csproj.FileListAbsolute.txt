@@ -1,0 +1,10 @@
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\bin\Debug\litedbprueba.exe.config
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\bin\Debug\litedbprueba.exe
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\bin\Debug\litedbprueba.pdb
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\bin\Debug\LiteDB.dll
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\bin\Debug\LiteDB.xml
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\obj\Debug\litedbprueba.csproj.AssemblyReference.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\obj\Debug\litedbprueba.csproj.CoreCompileInputs.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\obj\Debug\litedbprueba.csproj.CopyComplete
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\obj\Debug\litedbprueba.exe
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\litedbprueba\litedbprueba\obj\Debug\litedbprueba.pdb

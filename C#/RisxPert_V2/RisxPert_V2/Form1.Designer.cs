@@ -68,6 +68,7 @@
             this.C = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ER = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CR = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Abrir1 = new System.Windows.Forms.Button();
             this.Fase3 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
@@ -85,6 +86,7 @@
             this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cl = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Cargar = new System.Windows.Forms.Button();
             this.Fase4 = new System.Windows.Forms.TabPage();
             this.Btn_abri_Fase4 = new System.Windows.Forms.Button();
@@ -179,6 +181,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn10,
@@ -207,35 +212,30 @@
             this.dataGridViewTextBoxColumn10.HeaderText = "ID";
             this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Width = 50;
             // 
             // dataGridViewTextBoxColumn11
             // 
             this.dataGridViewTextBoxColumn11.HeaderText = "Nombre de Riesgo";
             this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 125;
             // 
             // dataGridViewTextBoxColumn12
             // 
             this.dataGridViewTextBoxColumn12.HeaderText = "Activo";
             this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.Width = 125;
             // 
             // dataGridViewTextBoxColumn13
             // 
             this.dataGridViewTextBoxColumn13.HeaderText = "Riesgo";
             this.dataGridViewTextBoxColumn13.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 125;
             // 
             // dataGridViewTextBoxColumn14
             // 
             this.dataGridViewTextBoxColumn14.HeaderText = "Daño";
             this.dataGridViewTextBoxColumn14.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.Width = 125;
             // 
             // dataGridViewTextBoxColumn15
             // 
@@ -243,7 +243,6 @@
             this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
             this.dataGridViewTextBoxColumn15.Visible = false;
-            this.dataGridViewTextBoxColumn15.Width = 50;
             // 
             // dataGridViewTextBoxColumn16
             // 
@@ -251,7 +250,6 @@
             this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.Visible = false;
-            this.dataGridViewTextBoxColumn16.Width = 50;
             // 
             // dataGridViewTextBoxColumn17
             // 
@@ -259,7 +257,6 @@
             this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.Visible = false;
-            this.dataGridViewTextBoxColumn17.Width = 50;
             // 
             // dataGridViewTextBoxColumn18
             // 
@@ -267,7 +264,6 @@
             this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
             this.dataGridViewTextBoxColumn18.Visible = false;
-            this.dataGridViewTextBoxColumn18.Width = 50;
             // 
             // dataGridViewTextBoxColumn19
             // 
@@ -275,7 +271,6 @@
             this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
             this.dataGridViewTextBoxColumn19.Visible = false;
-            this.dataGridViewTextBoxColumn19.Width = 50;
             // 
             // dataGridViewTextBoxColumn31
             // 
@@ -283,7 +278,6 @@
             this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
             this.dataGridViewTextBoxColumn31.Visible = false;
-            this.dataGridViewTextBoxColumn31.Width = 50;
             // 
             // dataGridViewTextBoxColumn32
             // 
@@ -291,7 +285,6 @@
             this.dataGridViewTextBoxColumn32.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
             this.dataGridViewTextBoxColumn32.Visible = false;
-            this.dataGridViewTextBoxColumn32.Width = 50;
             // 
             // dataGridViewTextBoxColumn33
             // 
@@ -299,7 +292,6 @@
             this.dataGridViewTextBoxColumn33.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
             this.dataGridViewTextBoxColumn33.Visible = false;
-            this.dataGridViewTextBoxColumn33.Width = 50;
             // 
             // dataGridViewTextBoxColumn34
             // 
@@ -307,7 +299,6 @@
             this.dataGridViewTextBoxColumn34.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
             this.dataGridViewTextBoxColumn34.Visible = false;
-            this.dataGridViewTextBoxColumn34.Width = 50;
             // 
             // btn_Guardar1
             // 
@@ -353,6 +344,7 @@
             // 
             // dataGridView2
             // 
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -368,111 +360,111 @@
             this.dataGridViewTextBoxColumn30,
             this.C,
             this.PB,
-            this.ER});
+            this.ER,
+            this.CR});
             this.dataGridView2.Location = new System.Drawing.Point(17, 220);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(1440, 337);
             this.dataGridView2.TabIndex = 7;
+            this.dataGridView2.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellEndEdit);
+            this.dataGridView2.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dataGridView2_CellValidating);
+            this.dataGridView2.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView2_EditingControlShowing);
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "ID";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 50;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.HeaderText = "Nombre de Riesgo";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 125;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.HeaderText = "Activo";
             this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 125;
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.HeaderText = "Riesgo";
             this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 125;
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.HeaderText = "Daño";
             this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 125;
             // 
             // F
             // 
             this.F.HeaderText = "F";
             this.F.MinimumWidth = 6;
             this.F.Name = "F";
-            this.F.Width = 50;
             // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.HeaderText = "S";
             this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.Width = 50;
             // 
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.HeaderText = "P";
             this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Width = 50;
             // 
             // dataGridViewTextBoxColumn8
             // 
             this.dataGridViewTextBoxColumn8.HeaderText = "E";
             this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.Width = 50;
             // 
             // dataGridViewTextBoxColumn9
             // 
             this.dataGridViewTextBoxColumn9.HeaderText = "A";
             this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.Width = 50;
             // 
             // dataGridViewTextBoxColumn30
             // 
             this.dataGridViewTextBoxColumn30.HeaderText = "V";
             this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
-            this.dataGridViewTextBoxColumn30.Width = 50;
             // 
             // C
             // 
             this.C.HeaderText = "C";
             this.C.MinimumWidth = 6;
             this.C.Name = "C";
-            this.C.Width = 50;
+            this.C.Visible = false;
             // 
             // PB
             // 
             this.PB.HeaderText = "PB";
             this.PB.MinimumWidth = 6;
             this.PB.Name = "PB";
-            this.PB.Width = 50;
+            this.PB.Visible = false;
             // 
             // ER
             // 
             this.ER.HeaderText = "ER";
             this.ER.MinimumWidth = 6;
             this.ER.Name = "ER";
-            this.ER.Width = 50;
+            this.ER.Visible = false;
+            // 
+            // CR
+            // 
+            this.CR.HeaderText = "Clase de riesgo";
+            this.CR.MinimumWidth = 6;
+            this.CR.Name = "CR";
+            this.CR.Visible = false;
             // 
             // btn_Abrir1
             // 
@@ -482,7 +474,7 @@
             this.btn_Abrir1.TabIndex = 6;
             this.btn_Abrir1.Text = "Abrir";
             this.btn_Abrir1.UseVisualStyleBackColor = true;
-            this.btn_Abrir1.Click += new System.EventHandler(this.btn_Abrir1_Click);
+            this.btn_Abrir1.Click += new System.EventHandler(this.btn_Abrir1_Click_1);
             // 
             // Fase3
             // 
@@ -498,6 +490,7 @@
             // 
             // dataGridView3
             // 
+            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn20,
@@ -513,7 +506,8 @@
             this.dataGridViewTextBoxColumn35,
             this.dataGridViewTextBoxColumn36,
             this.dataGridViewTextBoxColumn37,
-            this.dataGridViewTextBoxColumn38});
+            this.dataGridViewTextBoxColumn38,
+            this.Cl});
             this.dataGridView3.Location = new System.Drawing.Point(17, 211);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersWidth = 51;
@@ -526,98 +520,91 @@
             this.dataGridViewTextBoxColumn20.HeaderText = "ID";
             this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.Width = 50;
             // 
             // dataGridViewTextBoxColumn21
             // 
             this.dataGridViewTextBoxColumn21.HeaderText = "Nombre de Riesgo";
             this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            this.dataGridViewTextBoxColumn21.Width = 125;
             // 
             // dataGridViewTextBoxColumn22
             // 
             this.dataGridViewTextBoxColumn22.HeaderText = "Activo";
             this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.Width = 125;
             // 
             // dataGridViewTextBoxColumn23
             // 
             this.dataGridViewTextBoxColumn23.HeaderText = "Riesgo";
             this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.Width = 125;
             // 
             // dataGridViewTextBoxColumn24
             // 
             this.dataGridViewTextBoxColumn24.HeaderText = "Daño";
             this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.Width = 125;
             // 
             // dataGridViewTextBoxColumn25
             // 
             this.dataGridViewTextBoxColumn25.HeaderText = "F";
             this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.Width = 50;
             // 
             // dataGridViewTextBoxColumn26
             // 
             this.dataGridViewTextBoxColumn26.HeaderText = "S";
             this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.Width = 50;
             // 
             // dataGridViewTextBoxColumn27
             // 
             this.dataGridViewTextBoxColumn27.HeaderText = "P";
             this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            this.dataGridViewTextBoxColumn27.Width = 50;
             // 
             // dataGridViewTextBoxColumn28
             // 
             this.dataGridViewTextBoxColumn28.HeaderText = "E";
             this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            this.dataGridViewTextBoxColumn28.Width = 50;
             // 
             // dataGridViewTextBoxColumn29
             // 
             this.dataGridViewTextBoxColumn29.HeaderText = "A";
             this.dataGridViewTextBoxColumn29.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
-            this.dataGridViewTextBoxColumn29.Width = 50;
             // 
             // dataGridViewTextBoxColumn35
             // 
             this.dataGridViewTextBoxColumn35.HeaderText = "V";
             this.dataGridViewTextBoxColumn35.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
-            this.dataGridViewTextBoxColumn35.Width = 50;
             // 
             // dataGridViewTextBoxColumn36
             // 
             this.dataGridViewTextBoxColumn36.HeaderText = "C";
             this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            this.dataGridViewTextBoxColumn36.Width = 50;
             // 
             // dataGridViewTextBoxColumn37
             // 
             this.dataGridViewTextBoxColumn37.HeaderText = "PB";
             this.dataGridViewTextBoxColumn37.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
-            this.dataGridViewTextBoxColumn37.Width = 50;
             // 
             // dataGridViewTextBoxColumn38
             // 
             this.dataGridViewTextBoxColumn38.HeaderText = "ER";
             this.dataGridViewTextBoxColumn38.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
-            this.dataGridViewTextBoxColumn38.Width = 50;
+            // 
+            // Cl
+            // 
+            this.Cl.HeaderText = "Clase de Riesgo";
+            this.Cl.MinimumWidth = 6;
+            this.Cl.Name = "Cl";
+            this.Cl.Visible = false;
             // 
             // btn_Cargar
             // 
@@ -652,6 +639,7 @@
             // 
             // dataGridView4
             // 
+            this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn39,
@@ -675,21 +663,18 @@
             this.dataGridView4.RowTemplate.Height = 24;
             this.dataGridView4.Size = new System.Drawing.Size(1440, 337);
             this.dataGridView4.TabIndex = 9;
-            this.dataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellContentClick);
             // 
             // dataGridViewTextBoxColumn39
             // 
             this.dataGridViewTextBoxColumn39.HeaderText = "ID";
             this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
-            this.dataGridViewTextBoxColumn39.Width = 50;
             // 
             // dataGridViewTextBoxColumn40
             // 
             this.dataGridViewTextBoxColumn40.HeaderText = "Nombre de Riesgo";
             this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
-            this.dataGridViewTextBoxColumn40.Width = 125;
             // 
             // dataGridViewTextBoxColumn41
             // 
@@ -697,7 +682,6 @@
             this.dataGridViewTextBoxColumn41.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
             this.dataGridViewTextBoxColumn41.Visible = false;
-            this.dataGridViewTextBoxColumn41.Width = 125;
             // 
             // dataGridViewTextBoxColumn42
             // 
@@ -705,7 +689,6 @@
             this.dataGridViewTextBoxColumn42.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
             this.dataGridViewTextBoxColumn42.Visible = false;
-            this.dataGridViewTextBoxColumn42.Width = 125;
             // 
             // dataGridViewTextBoxColumn43
             // 
@@ -713,7 +696,6 @@
             this.dataGridViewTextBoxColumn43.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
             this.dataGridViewTextBoxColumn43.Visible = false;
-            this.dataGridViewTextBoxColumn43.Width = 125;
             // 
             // dataGridViewTextBoxColumn44
             // 
@@ -721,7 +703,6 @@
             this.dataGridViewTextBoxColumn44.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
             this.dataGridViewTextBoxColumn44.Visible = false;
-            this.dataGridViewTextBoxColumn44.Width = 50;
             // 
             // dataGridViewTextBoxColumn45
             // 
@@ -729,7 +710,6 @@
             this.dataGridViewTextBoxColumn45.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
             this.dataGridViewTextBoxColumn45.Visible = false;
-            this.dataGridViewTextBoxColumn45.Width = 50;
             // 
             // dataGridViewTextBoxColumn46
             // 
@@ -737,7 +717,6 @@
             this.dataGridViewTextBoxColumn46.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
             this.dataGridViewTextBoxColumn46.Visible = false;
-            this.dataGridViewTextBoxColumn46.Width = 50;
             // 
             // dataGridViewTextBoxColumn47
             // 
@@ -745,7 +724,6 @@
             this.dataGridViewTextBoxColumn47.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
             this.dataGridViewTextBoxColumn47.Visible = false;
-            this.dataGridViewTextBoxColumn47.Width = 50;
             // 
             // dataGridViewTextBoxColumn48
             // 
@@ -753,7 +731,6 @@
             this.dataGridViewTextBoxColumn48.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
             this.dataGridViewTextBoxColumn48.Visible = false;
-            this.dataGridViewTextBoxColumn48.Width = 50;
             // 
             // dataGridViewTextBoxColumn49
             // 
@@ -761,7 +738,6 @@
             this.dataGridViewTextBoxColumn49.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
             this.dataGridViewTextBoxColumn49.Visible = false;
-            this.dataGridViewTextBoxColumn49.Width = 50;
             // 
             // dataGridViewTextBoxColumn50
             // 
@@ -769,7 +745,6 @@
             this.dataGridViewTextBoxColumn50.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
             this.dataGridViewTextBoxColumn50.Visible = false;
-            this.dataGridViewTextBoxColumn50.Width = 50;
             // 
             // dataGridViewTextBoxColumn51
             // 
@@ -777,21 +752,18 @@
             this.dataGridViewTextBoxColumn51.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
             this.dataGridViewTextBoxColumn51.Visible = false;
-            this.dataGridViewTextBoxColumn51.Width = 50;
             // 
             // dataGridViewTextBoxColumn52
             // 
             this.dataGridViewTextBoxColumn52.HeaderText = "ER";
             this.dataGridViewTextBoxColumn52.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
-            this.dataGridViewTextBoxColumn52.Width = 50;
             // 
             // Clase
             // 
             this.Clase.HeaderText = "Clase de Riesgo ";
             this.Clase.MinimumWidth = 6;
             this.Clase.Name = "Clase";
-            this.Clase.Width = 125;
             // 
             // Form1
             // 
@@ -836,20 +808,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_Cargar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn F;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
-        private System.Windows.Forms.DataGridViewTextBoxColumn C;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ER;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
@@ -865,20 +823,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
         private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn29;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn38;
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.Button Btn_abri_Fase4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
@@ -896,6 +840,36 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn51;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn52;
         private System.Windows.Forms.DataGridViewTextBoxColumn Clase;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn29;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn38;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cl;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn F;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
+        private System.Windows.Forms.DataGridViewTextBoxColumn C;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ER;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CR;
     }
 }
 
