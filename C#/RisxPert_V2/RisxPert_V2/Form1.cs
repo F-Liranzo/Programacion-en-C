@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LiteDB;
 
 namespace RisxPert_V2
 {
@@ -15,11 +16,14 @@ namespace RisxPert_V2
     {
         private List<DataGridViewData> dataGrid1Data = new List<DataGridViewData>();
         private int resultadoERValue;
+        private LiteDatabase _liteDb;
 
         public Form1()
         {
             InitializeComponent();
-            
+            string databasePath = @"C:\Users\Fraia\Desktop\basdatos\MyDatabase.db";
+            _liteDb = new LiteDatabase(databasePath);
+
         }
 
 
@@ -71,6 +75,19 @@ namespace RisxPert_V2
 
                 };
                 dataList.Add(data);
+            }
+
+            SaveDataToDatabase(dataList);
+        }
+
+        private void SaveDataToDatabase(List<DataGridViewData> dataList)
+        {
+            var collection = _liteDb.GetCollection<DataGridViewData>("dataGrid1Data");
+            collection.DeleteAll(); // Eliminar datos existentes
+
+            foreach (var data in dataList)
+            {
+                collection.Insert(data);
             }
         }
 
